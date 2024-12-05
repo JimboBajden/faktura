@@ -1,0 +1,121 @@
+#convertButton{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 200px;
+    height: 100px;
+    font-size: larger;
+}
+.podpisy{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.podpis{
+    position: relative;
+    width: auto;
+}
+.podpis::before{
+    content: '';
+    width: 350px;
+    border-bottom: solid 4px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.podpis2{
+    position: relative;
+    width: auto;
+    break-inside: auto;    
+}
+.podpis2::before{
+    content: '';
+    width: 350px;;
+    border-bottom: solid 4px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tab{
+    margin-left: 5%;
+}
+.legenda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    border: 1px solid black;
+}
+
+.legenda >p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    break-inside: auto;
+    border: solid 1px black;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0;
+}
+.uslugi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border: 2px solid black;
+}
+.uslugi >p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    break-inside: auto;
+    padding: 5px;
+    margin: 0;
+    border: 4px solid white;
+    font-size: small;
+
+}
+#counter{
+    width: 5%;
+}
+#usluga{
+    width: 35%;
+}
+#ilosc{
+    width: 5%;
+}
+#cena{
+    width: 15%;
+}
+#net{
+    width: 15%;
+}
+#vat{
+    width: 15%;
+}
+#wvat{
+    width: 20%;
+}
+#brutto{
+    width: 15%;
+}
+.test{
+    display: flex;
+    width: 50%;
+    height: auto;
+    border: 1px solid;
+    padding: 0;
+    margin: 0;
+}
+.test > p{
+    width: 25%;
+    text-align: right;
+    border: solid 1px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
